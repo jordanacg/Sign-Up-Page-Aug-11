@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&display=swap");
+
+* {
+  font-family: "inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  max-width: 1400px;
+  margin: auto;
+
+  /* box-sizing: border-box;
+  width: 100%;
+  max-width: 1400px; */
+  /* max-width: 320px; */
+}
+
+body {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+}
+
+/* NAV */
+
+.nav {
+  background-color: #744df6;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav a {
+  color: #eee;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* MAIN */
+.main {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.main h1,
+p,
+button {
+  margin: 20px 0 20px 0;
+}
+
+.main button {
+  padding: 10px;
+  background-color: #744df6;
+  border: 1px solid #744df6;
+}
+
+.main button a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-2 {
+  padding: 20px;
+}
+
+.main-2 h2 {
+  padding: 0 0 20px 0;
+}
+
+.main-2-grids {
+  display: grid;
+}
+
+.main-2-grids img {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  padding: 0 0 10px 0;
+}
+
+.main-2 a {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  color: #744df6;
+  text-decoration: none;
+}
+
+.main-3 {
+  padding: 20px;
+}
+
+.main-3 a {
+  color: #744df6;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.main-4 {
+  padding: 20px;
+}
+
+.main-5 {
+  padding: 20px;
+}
+
+.sign-up-cont {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #744df6;
+  max-width: 80%;
+}
+
+input {
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.labeltext {
+  font-weight: bold;
+  color: #eee;
+  font-size: 12px;
+}
+
+.sign-up-cont button {
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #744df6;
+  width: 70px;
+  margin: auto;
+}
+
+.sign-up-cont a {
+  color: #744df6;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.main-6 {
+  padding: 20px;
+}
+
+.main-6 button {
+  padding: 10px;
+  background-color: #744df6;
+  border: 1px solid #744df6;
+}
+
+.main-6 button a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-6 img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.main-7 {
+  padding: 20px;
+}
+
+.main-7 button {
+  padding: 10px;
+  background-color: #744df6;
+  border: 1px solid #744df6;
+}
+
+.main-7 button a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-7 img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.footer {
+  background-color: #744df6;
+  padding: 20px;
+}
+
+.footer p {
+  color: #eee;
+}
+
+.footer h4 {
+  color: #eee;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #eee;
+}
+
+@media all and (min-width: 700px) {
+  .main-2-grids {
+    display: flex;
+  }
+
+  .main-2-grid-1 {
+    padding: 0 10px 0 10px;
+  }
+
+  .main-2-grid-2 {
+    padding: 0 10px 0 10px;
+  }
+
+  .main-2-grid-3 {
+    padding: 0 10px 0 10px;
+  }
+
+  .main-3-4 {
+    display: flex;
+  }
+
+  .main-sign {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sign-up-cont {
+    grid-column: 2;
+    width: 80%;
+  }
+
+  .main-6 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .main-6 button {
+    width: 150px;
+    margin: auto;
+  }
+
+  .main-7 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .main-7-img {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .main-7 button {
+    width: 150px;
+    margin: auto;
+  }
+}
